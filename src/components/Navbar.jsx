@@ -25,7 +25,7 @@ function Navbar() {
                 <p><i class="fa fa-br/iefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full-stack Engineer</p>
                 <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Jl. Tembok No.5, Kayuputih, Pulogadung, Jakarta-Timur(13210).</p>
                 <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>marcell.maruli021@gmail.com <br /> or <br /> marcel.mp1000@gmail.com</p>
-                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> <a href="https://wa.me/+6281934109699"> 081934109699 </a> || 08121000592</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> 08121000592 <br /> or <br /> <i class="fa fa-whatsapp fa-fw w3-margin-right w3-large w3-text-teal"></i> <a href="https://wa.me/+6281934109699"> 081934109699 </a></p>
                 <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://github.com/marcel021maruli">https://github.com/marcel021maruli</a></p>
                 <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/marcel-pasaribu-1a3a4b175/">https://www.linkedin.com/in/marcel-pasaribu-1a3a4b175/</a></p>
                 <hr />
@@ -91,142 +91,48 @@ function Navbar() {
             </div><br />
           </div>
 
-          {/* PORTFOLIOS  */}
           <div class="w3-twothird">
+
+
+
+            {/* EDUCATION */}
             <div class="w3-container w3-card w3-white w3-margin-bottom">
-              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-newspaper-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolios</h2>
+              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
               <div class="w3-container">
-
-                <h5 class="w3-opacity"><b>Backless-Js (NPM)</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                <p>Making NPM Package to build a server less than 5 minutes. Using ODM Mongoose for MongoDB database, bcrypt for hashing a password, Jsonwebtoken to generate a token, and express in server-side, Making Graphical User Interface(GUI) using React-Js.</p>
-                <p>
-                  <a href="https://github.com/Backless-Js/Backless-Js"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://www.npmjs.com/package/backless"> <button class="w3-button w3-red w3-round-xlarge" style={{ width: "100px", margin: "0 0.5vw 0 0.5vw" }}><img src={npmLogo} alt="npm-logo" style={{ width: "30%" }} /> NPM</button></a>
-                  <a href="https://backless-js.firebaseapp.com"> <button class="w3-button w3-round-xlarge" style={{ backgroundColor: "#7b4cdb", margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-file-text-o w3-hover-opacity" ></i> Documentation</button></a>
-                </p>
+                <h5 class="w3-opacity"><img src={hacktiv8} alt="logo-hacktiv" style={{ width: "50px", borderRadius: "50%" }} /><b>Hacktiv8 Indonesia</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - April 2020</h6>
+                <p>Learning Javascript language, express, postgreSQL, MongoDB, Vue, ReactJs, React-Native, and GraphQL.</p>
+                <a href="https://hire.hacktiv8.com/verify/fsjs/MarcelMaruliPasaribu-20200404">Click to see E-Certificate</a>
                 <hr />
               </div>
-
               <div class="w3-container">
-                <h5 class="w3-opacity"><b>EntertainMe</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
-                <p>
-                  Build a web application using React, React-Redux, GraphQL, Apollo, and Jest for client-side. Using Apollo-Server, GraphQL, Redis, ioRedis, Axios, and MongoDB for server-side.
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/Marcel-EntertainMe"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                </p>
-                <hr />
+                <h5 class="w3-opacity"><img src={logoUsahid} alt="logo-usahidv" style={{ width: "100px", borderRadius: "50%" }} /><b>Sahid University Jakarta</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
+                <h5 class="w3-opacity"><b>Bachelor's Degree of Food Technology</b></h5>
+                <p>Graduated with title S.Tp <h6>(GPA: 3.22/4.00)</h6></p>
+                <a href="https://ibb.co/F4ztjpb">Click to see Transkrip</a>
               </div>
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>React-YuGiOh</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
-                <p>
-                  Build a web using YuGiOh API for a server-side, and using React and React-Redux for client-side.
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/Marcel-ReactChallenge"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://yugioh-react.web.app/"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>Sudoku</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
-                <p>
-                  Build a mobile-game-application Sudoku using API for a server-side, and using React-Native, React-Redux, Axios, and Expo for client-side.
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/Marcel-Sufoku"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                </p>
-                <hr />
-              </div>
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>BlackJack</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
-                <p>
-                  Build game web-application using vue.js (Vuex and Vue-Router) in client-side, and using socket.io, express, PostgreSQL and using CardDeck's API.
-                </p>
-                <p>
-                  <a href="https://github.com/H8-BlackJack/BlackJack"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://blackjack2-e1340.firebaseapp.com/"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>E-Commerce</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
-                <p>
-                  Making E-commerce's Client and CMS Side using Vue.js (Vuex and Vue-Router) as a Framework in client-side, and using PostgreSQL as a database,
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/e-commerce-1"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://coffee-break-334aa.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>E-Commerce CMS</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
-                <p>
-                  Making E-commerce's Client and CMS Side using Vue.js (Vuex and Vue-Router) as a Framework in client-side, and using PostgreSQL as a database,
-                </p>
-                <p>
-                  <ul style={{ textAlign: 'left' }}>
-                    <li>
-                      Admin-Email= marcel.admin@gmail.com
-                    </li>
-                    <li>
-                      Admin-Password = 12345
-                    </li>
-                    <li>
-                      Admin-SecretCode = im admin yo!
-                    </li>
-                  </ul>
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/e-commerce-cms"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://e-commerce-cms-a6bed.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>Kanban</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
-                <p>
-                  Making Kanban application using Vue.js (Vuex and Vue-Router) as a Framework in client-side, PostgreSQL as a database, and GoogleOauth for login and Socket.io,
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/kanban-1?organization=Marcel021Maruli&organization=Marcel021Maruli"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://kanfun-1584103939567.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
-
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>Fancy-Todo</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
-                <p>
-                  Making Fancy-Todo list using Vue.js (Vuex and Vue-Router) as a Framework in client-side, PostgreSQL as a database, and GoogleOauth for login and SendGrid API,
-                </p>
-                <p>
-                  <a href="https://github.com/Marcel021Maruli/fancy-todo?organization=Marcel021Maruli&organization=Marcel021Maruli"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
-                  <a href="https://fancy-to-do-267406.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
-                </p>
-                <hr />
-              </div>
-
             </div>
+
+
+
+            {/* FREELANCE PROJECT */}
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Freelance Project</h2>
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>PT. Merdeka Digital Asia</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> March 2021</h6>
+                <p>
+                  Build company website using <b>VueJS</b>, <b>Axios</b>, <b>Vue-Router</b>, styling using <b>bootstrap-vue</b>, and implementing the <b>i18n</b> using <b>Vue-i18n</b>.                 </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/Merdeka_Compro?organization=Marcel021Maruli&organization=Marcel021Maruli"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  <a href="https://merdeka-digital-asia.firebaseapp.com/"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a>
+                </p>
+                <hr />
+              </div>
+            </div>
+
 
             {/* WORKING EXPERIENCE */}
             <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -278,24 +184,127 @@ function Navbar() {
               </div>
             </div>
 
-
-            {/* EDUCATION */}
-            <div class="w3-container w3-card w3-white">
-              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+            {/* PORTFOLIOS  */}
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-newspaper-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolios</h2>
               <div class="w3-container">
-                <h5 class="w3-opacity"><img src={hacktiv8} alt="logo-hacktiv" style={{ width: "50px", borderRadius: "50%" }} /><b>Hacktiv8 Indonesia</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - April 2020</h6>
-                <p>Learning Javascript language, express, postgreSQL, MongoDB, Vue, ReactJs, React-Native, and GraphQL.</p>
-                <a href="https://hire.hacktiv8.com/verify/fsjs/MarcelMaruliPasaribu-20200404">Click to see E-Certificate</a>
+
+                <h5 class="w3-opacity"><b>Backless-Js (NPM)</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                <p>Making NPM Package to build a server less than 5 minutes. Using ODM Mongoose for MongoDB database, bcrypt for hashing a password, Jsonwebtoken to generate a token, and express in server-side, Making Graphical User Interface(GUI) using React-Js.</p>
+                <p>
+                  <a href="https://github.com/Backless-Js/Backless-Js"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  <a href="https://www.npmjs.com/package/backless"> <button class="w3-button w3-red w3-round-xlarge" style={{ width: "100px", margin: "0 0.5vw 0 0.5vw" }}><img src={npmLogo} alt="npm-logo" style={{ width: "30%" }} /> NPM</button></a>
+                  <a href="https://backless-js.firebaseapp.com"> <button class="w3-button w3-round-xlarge" style={{ backgroundColor: "#7b4cdb", margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-file-text-o w3-hover-opacity" ></i> Documentation</button></a>
+                </p>
                 <hr />
               </div>
+
               <div class="w3-container">
-                <h5 class="w3-opacity"><img src={logoUsahid} alt="logo-usahidv" style={{ width: "100px", borderRadius: "50%" }} /><b>Sahid University Jakarta</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-                <h5 class="w3-opacity"><b>Bachelor's Degree of Food Technology</b></h5>
-                <p>Graduated with title S.Tp <h6>(GPA: 3.22/4.00)</h6></p>
-                <a href="https://ibb.co/F4ztjpb">Click to see Transkrip</a>
+                <h5 class="w3-opacity"><b>EntertainMe</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
+                <p>
+                  Build a web application using React, React-Redux, GraphQL, Apollo, and Jest for client-side. Using Apollo-Server, GraphQL, Redis, ioRedis, Axios, and MongoDB for server-side.
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/Marcel-EntertainMe"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                </p>
+                <hr />
               </div>
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>React-YuGiOh</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
+                <p>
+                  Build a web using YuGiOh API for a server-side, and using React and React-Redux for client-side.
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/Marcel-ReactChallenge"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://yugioh-react.web.app/"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Sudoku</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h6>
+                <p>
+                  Build a mobile-game-application Sudoku using API for a server-side, and using React-Native, React-Redux, Axios, and Expo for client-side.
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/Marcel-Sufoku"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                </p>
+                <hr />
+              </div>
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>BlackJack</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
+                <p>
+                  Build game web-application using vue.js (Vuex and Vue-Router) in client-side, and using socket.io, express, PostgreSQL and using CardDeck's API.
+                </p>
+                <p>
+                  <a href="https://github.com/H8-BlackJack/BlackJack"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://blackjack2-e1340.firebaseapp.com/"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>E-Commerce</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
+                <p>
+                  Making E-commerce's Client and CMS Side using Vue.js (Vuex and Vue-Router) as a Framework in client-side, and using PostgreSQL as a database,
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/e-commerce-1"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://coffee-break-334aa.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>E-Commerce CMS</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
+                <p>
+                  Making E-commerce's Client and CMS Side using Vue.js (Vuex and Vue-Router) as a Framework in client-side, and using PostgreSQL as a database,
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/e-commerce-cms"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://e-commerce-cms-a6bed.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Kanban</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
+                <p>
+                  Making Kanban application using Vue.js (Vuex and Vue-Router) as a Framework in client-side, PostgreSQL as a database, and GoogleOauth for login and Socket.io,
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/kanban-1?organization=Marcel021Maruli&organization=Marcel021Maruli"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://kanfun-1584103939567.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
+
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Fancy-Todo</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020</h6>
+                <p>
+                  Making Fancy-Todo list using Vue.js (Vuex and Vue-Router) as a Framework in client-side, PostgreSQL as a database, and GoogleOauth for login and SendGrid API,
+                </p>
+                <p>
+                  <a href="https://github.com/Marcel021Maruli/fancy-todo?organization=Marcel021Maruli&organization=Marcel021Maruli"><button class="w3-button w3-black w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-github w3-hover-opacity" ></i> Github</button></a>
+                  {/* <a href="https://fancy-to-do-267406.firebaseapp.com"><button class="w3-button w3-blue w3-round-xlarge" style={{ margin: "0 0.5vw 0 0.5vw" }}><i class="fa fa-link w3-hover-opacity" ></i> Link</button></a> */}
+                </p>
+                <hr />
+              </div>
+
             </div>
           </div>
         </div>
@@ -320,7 +329,7 @@ function Navbar() {
         </a>
       </footer>
 
-    </div>
+    </div >
   );
 }
 
